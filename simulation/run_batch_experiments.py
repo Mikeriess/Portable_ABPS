@@ -10,8 +10,8 @@ Created on Sun Jan 30 13:49:18 2022
 batch_number = 5
 
 batch_name = "batch" + str(batch_number)
-root_path = "C:/Users/Mike/Norwegian University of Life Sciences\Joachim Scholderer - Teaching/PhD Mike/Papers/CRM process improvement paper (In progress)/Data/Simulation_results/"
-code_root_path = "C:/Users/Mike/Norwegian University of Life Sciences\Joachim Scholderer - Teaching/PhD Mike/Papers/CRM process improvement paper (In progress)/code/code/"
+root_path = "results/"
+code_root_path = ""
 #root_path = "E:/CRM_paper/"
 #code_root_path = "E:/CRM_paper/Agent_based_evlog_simulator-master/Agent_based_evlog_simulator-master/"
 
@@ -55,7 +55,7 @@ import time
 import numpy as np
 import pandas as pd
 
-from Alg1_timeline_simulation import Run_simulation
+from algorithms.alg1_timeline_simulation import Run_simulation
 
 
 #########################################

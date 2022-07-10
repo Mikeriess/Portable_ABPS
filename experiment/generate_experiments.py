@@ -33,11 +33,7 @@ df["RUN"] = df.index + 1
 print(df)
 
 # Save the settings to a file
-np.save('C:/Users/Mike/Norwegian University of Life Sciences\Joachim Scholderer - Teaching/PhD Mike/Papers/CRM process improvement paper (In progress)/Data/Simulation_results/Experiment_Settings.npy', Settings) 
-#np.save('E:/CRM_paper/Experiment_Settings.npy', Settings) 
-np.save('Experiment_Settings.npy', Settings) 
+np.save('../results/Experiment_Settings.npy', Settings) 
 
 #store the new experimental design
-df.to_csv("Experiments.csv", index=False)
-#df.to_csv("E:/CRM_paper/Experiments.csv", index=False)
-df.to_csv("C:/Users/Mike/Norwegian University of Life Sciences\Joachim Scholderer - Teaching/PhD Mike/Papers/CRM process improvement paper (In progress)/Data/Simulation_results/Experiments.csv", index=False)
+df.to_csv("../results/Experiments.csv", index=False)

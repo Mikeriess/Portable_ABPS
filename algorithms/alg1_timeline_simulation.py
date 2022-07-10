@@ -11,11 +11,11 @@ def Run_simulation(agents, P_scheme, D, seed, filename="Test_log.csv"):
     np.random.seed(seed)
     import pandas as pd
     
-    from helper_functions import store_evlog, sim_generalized_lognormal
-    from Alg2_case_arrival import CaseArrival#, pi_arr, pi_attr#, phi_arrival
-    from Alg3_queue_management import QueueManagement
-    from Alg4_case_assignment import CaseAssignment
-    from Alg5_case_activities import CaseActivities
+    from simulation.helper_functions import store_evlog, sim_generalized_lognormal
+    from algorithms.alg2_case_arrival import CaseArrival#, pi_arr, pi_attr#, phi_arrival
+    from algorithms.alg3_queue_management import QueueManagement
+    from algorithms.alg4_case_assignment import CaseAssignment
+    from algorithms.alg5_case_activities import CaseActivities
     
     verbose = False
     
